@@ -1,0 +1,48 @@
+ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Admin@Computer MINGW64 /e/GIT_DOM_VCE/Новая папка/REPO_15 (main)
+$ git branch
+* main
+  master
+
+Admin@Computer MINGW64 /e/GIT_DOM_VCE/Новая папка/REPO_15 (main)
+$ git log
+commit b005deafccb07d981e46bdc9d1d083f1c4902f83 (HEAD -> main, origin/main)
+Merge: 8497d4a bec8c17
+Author: Roman <roman.slivko1@gmail.com>
+Date:   Sat Jan 31 13:41:24 2026 +0200
+
+    second commit Конфлікт вирішено
+
+commit 8497d4a756c4f86e08cc12eb5b9f746df09be77d
+Author: Roman <roman.slivko1@gmail.com>
+Date:   Sat Jan 31 13:36:42 2026 +0200
+
+    first commit Змінено перші дві стрічки index.html на гілці main
+
+commit bec8c1753cc34652223c4cb193e2a002727fd0f7 (master)
+Author: Roman <roman.slivko1@gmail.com>
+Date:   Sat Jan 31 13:32:18 2026 +0200
+
+    first commit Змінено перші дві стрічки index.html
+
+commit 5476ee609760c70ac32b072a3d4a489fba2b2a5b
+Author: Roman <roman.slivko1@gmail.com>
+Date:   Sat Jan 31 13:25:22 2026 +0200
+
+    first commit Створено файл index.html
+
+Admin@Computer MINGW64 /e/GIT_DOM_VCE/Новая папка/REPO_15 (main)
+$ git log --merge
+fatal: --merge requires one of the pseudorefs MERGE_HEAD, CHERRY_PICK_HEAD, REVERT_HEAD or REBASE_HEAD
+
+Admin@Computer MINGW64 /e/GIT_DOM_VCE/Новая папка/REPO_15 (main)
+$ toush results.txt
+bash: toush: command not found
+
+Admin@Computer MINGW64 /e/GIT_DOM_VCE/Новая папка/REPO_15 (main)
+$ nano results.txt
